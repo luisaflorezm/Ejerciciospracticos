@@ -1,9 +1,10 @@
-public class For{
+public class While{
 	public static void main(String[]args)
 	{
-		int i;
-		for(i=0;i<=20;i+=2){ //+= es el incremento para contar de dos en dos hasta 20.
+		int i =0;
+		while(i<=20){
 			System.out.println("El valor actual de la i "+i);
+			i = i + 2; //Criterio para que el valor sea falso para poder qaue termine el programa.
 		}
 		System.out.println("El valor final de la i "+i);
 	}

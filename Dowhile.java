@@ -1,10 +1,11 @@
-public class For{
+public class Dowhile{
 	public static void main(String[]args)
 	{
-		int i;
-		for(i=0;i<=20;i+=2){ //+= es el incremento para contar de dos en dos hasta 20.
+		int i = 100;
+		do{
 			System.out.println("El valor actual de la i "+i);
-		}
+			i = i - 5; //Garantizar que la i sea 0, entonce se incrementa la i en -5.
+		}while(i>=0);
 		System.out.println("El valor final de la i "+i);
 	}
 }
