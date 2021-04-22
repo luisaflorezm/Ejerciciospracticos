@@ -13,7 +13,7 @@ public class Main {
         String val5 = "mateo";
         String val6 = "susana";
         String val7 = "juan";
-        String val8 = "toxica";
+        String val8 = "ana";
         
         String output = upperCaseFirst(val1);
         
